@@ -1,21 +1,21 @@
-# Group 4 Project
-**Purpose**: A System Administrtive Dashboard
+# Group 4 COMPTIA Project
+**Purpose**: A SYSTEM ADMINISTRATIVE DASHBOARD
 
 
 
-# Bash Simple Curses
+# Bash Simple Courses
 
-[![Documentation Status](https://readthedocs.org/projects/bashsimplecurses/badge/?version=master)](https://bashsimplecurses.readthedocs.io/en/master/?badge=master)
+[![Documentation Status](https://readthedocs.org/projects/bashsimplecourses/badge/?version=master)](https://bashsimplecurses.readthedocs.io/en/master/?badge=master)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmetal3d%2Fbashsimplecurses.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmetal3d%2Fbashsimplecurses?ref=badge_shield)
                 
 
-Bash Simple Curses gives you some basic functions to quickly create windows on your terminal.
+Bash Simple Courses gives you some basic functions to quickly create windows on your terminal.
 
 An example is given: bashbar. Bashbar is a monitoring bar that you can integrate into tiling window managers.
 
 The (unfinished) goal of Bash Simple Curses is to create windows. It is only intended to create colored windows and display information into. But, [with a little tips](https://bashsimplecurses.readthedocs.io/en/master/tips/), you can also make it interactive.
 
-To use this library, you have to import `simple_curses.sh` into your bash script, like so:
+To use this library, you have to import `simple_courses.sh` into your bash script, like so:
 
 ```bash
 
@@ -23,7 +23,7 @@ To use this library, you have to import `simple_curses.sh` into your bash script
 
 # import library, please check path
 #source /usr/lib/simple_curses.sh
-source /usr/local/lib/simple_curses.sh
+source /usr/local/lib/simple_courses.sh
 
 # You must create a "main" function:
 main () {
@@ -44,7 +44,7 @@ That's all.
 
 ```bash
 #!/bin/bash
-source simple_curses.sh
+source simple_courses.sh
 
 main(){
     # create a window
