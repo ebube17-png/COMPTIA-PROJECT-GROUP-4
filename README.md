@@ -98,6 +98,18 @@ make uninstall PREFIX=~/.local/bin
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmetal3d%2Fbashsimplecurses.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmetal3d%2Fbashsimplecurses?ref=badge_large)# COMPTIA Project Group 4
 
 
+## ADMIN DASHBOARD
+
+#!/bin/bash
+# ADMIN DASHBOARD LAUNCHER
+# Provides sudo access to the main system management interface
+
+if [ "$ (id -u)" -ne 0 ]; then
+    echo "Restarting with sudo..."
+    exec sudo "$0 "$@
+fi
+
+exec ./main.sh
 
 
 # **📚 Ultimate User Guide: System Management Dashboard**
